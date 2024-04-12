@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #4a9eff;
+    margin: 0; /* Убираем все отступы */
+    padding: 10px; /* Добавляем внутренний отступ для контента */
+    color: white;
+    /* Применяем шрифты от Google */
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    /* Остальные стили */
+    display: flex;
+    align-items: center;
+}
+
+.warning {
+    width: 60%;
+    text-align: center;
+}
+
+.news_button {
+    width: 40%;
+    text-align: center;
+}
+
+#proekt {
+    border: 2.5px solid rgb(255, 255, 255); 
+    padding: 10px 20px; 
+    background: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    /* Применяем шрифты от Google */
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+#dozhd {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#dozhd img {
+    width: 100%; /* Установите ширину вашего SVG */
+    height: 100%; /* Установите высоту вашего SVG */
+}
+
+
+#cnn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#nyt {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#wapo {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
